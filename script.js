@@ -26,7 +26,21 @@ console.log (`My Name is ${firstName}
             console.log(`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
         } else {
             console.log(`Mark's BMI ${BMIJohn} is higher than John's ${BMIMark}!`);
-        }*/
+        }
+            
+        const myAge = "23"
+        console.log(Number(myAge) + 25)
+        Truthy and falsy values*/
+        let umarWife = ""
+    if (umarWife) {
+        console.log("itni to allowed he abhi chalta he");
+    }
+    else {
+console.log("happy life");
+    };
+
+
+       
         
         
     
