@@ -38,30 +38,47 @@ console.log (`My Name is ${firstName}
 //     else {
 // console.log("happy life");
 //     
-/* Write your code below. Good luck! 🙂 */
-const Dolphins1 = 96;
-const Dolphins2 = 108;
-const Dolphins3 = 110;
+// const Dolphins1 = 96;
+// const Dolphins2 = 108;
+// const Dolphins3 = 110;
 
-const Koalas1 = 88;
-const Koalas2 = 91;
-const Koalas3 = 89;
+// const Koalas1 = 88;
+// const Koalas2 = 91;
+// const Koalas3 = 89;
 
-let scoreDolphins = (Dolphins1 + Dolphins2 + Dolphins3) / 3;
-let scoreKoalas = (Koalas1 + Koalas2 + Koalas3) / 3;
-console.log(scoreDolphins)
-console.log(scoreKoalas)
+// let scoreDolphins = (Dolphins1 + Dolphins2 + Dolphins3) / 3;
+// let scoreKoalas = (Koalas1 + Koalas2 + Koalas3) / 3;
+// console.log(scoreDolphins)
+// console.log(scoreKoalas)
 
-if (scoreDolphins > scoreKoalas) {
-    console.log("Dolphins win the trophy");
-} else if (scoreDolphins < scoreKoalas){
-     console.log("Dolphins win the trophy");
-} else if (scoreDolphins === scoreKoalas) {
-    scoreDolphins === scoreKoalas
-} else{}
+// if (scoreDolphins > scoreKoalas) {
+//     console.log("Dolphins win the trophy");
+// } else if (scoreDolphins < scoreKoalas){
+//      console.log("Dolphins win the trophy");
+// } else if (scoreDolphins === scoreKoalas) {
+//     scoreDolphins === scoreKoalas
+// } else{}
 
+// function personalDetails(firstName, lastName) {
+//     console.log(`Hello Guyz My Name is ${firstName} ${lastName}`)
+// }
 
-       
-        
-        
-    
+// let name = "Pawan"
+// let sirName = "Hardasani"
+// personalDetails(name, sirName)
+
+// function juiceMakerMachine(apple, mango, banana){
+// const juice = `Juice of ${apple} Apples and ${mango} Mangoes ${banana} Bananas is ready`;
+// return juice;
+// }
+// const finalJuice = juiceMakerMachine(2, 5, 5);
+// console.log(finalJuice);
+
+function multiplyer(num) {
+    const number =(num * num);
+    return number;
+}
+
+const userinput = prompt("Enter a Number");
+let finalnum = multiplyer(Number(userinput));
+document.write(finalnum);
