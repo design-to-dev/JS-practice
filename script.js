@@ -74,11 +74,30 @@ console.log (`My Name is ${firstName}
 // const finalJuice = juiceMakerMachine(2, 5, 5);
 // console.log(finalJuice);
 
-function multiplyer(num) {
-    const number =(num * num);
-    return number;
+// function multiplyer(num) {
+//     const number =(num * num);
+//     return number;
+// }
+
+// const userinput = prompt("Enter a Number");
+// let finalnum = multiplyer(Number(userinput));
+// document.write(finalnum);
+
+// const agecalc = function(birthyear){
+//     const age = 2025 - birthyear;
+//     return age;
+// }
+// let age1 = agecalc(2003);
+// console.log(age1)
+function cutFruitPieces(fruit){
+    return fruit * 4;
+}
+function fruitJuiceMaker(mango, apple){
+    const mangopices = cutFruitPieces(mango);
+    const applepices = cutFruitPieces(apple);
+    const juice = `Juice with ${mangopices} mangopices and ${applepices} applepieces are done`;
+    return juice;
 }
 
-const userinput = prompt("Enter a Number");
-let finalnum = multiplyer(Number(userinput));
-document.write(finalnum);
+    const finalJuice = fruitJuiceMaker(5, 2)
+    console.log(finalJuice)
