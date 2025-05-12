@@ -89,15 +89,20 @@ console.log (`My Name is ${firstName}
 // }
 // let age1 = agecalc(2003);
 // console.log(age1)
-function cutFruitPieces(fruit){
-    return fruit * 4;
-}
-function fruitJuiceMaker(mango, apple){
-    const mangopices = cutFruitPieces(mango);
-    const applepices = cutFruitPieces(apple);
-    const juice = `Juice with ${mangopices} mangopices and ${applepices} applepieces are done`;
-    return juice;
-}
+// function cutFruitPieces(fruit){
+//     return fruit * 4;
+// }
+// function fruitJuiceMaker(mango, apple){
+//     const mangopices = cutFruitPieces(mango);
+//     const applepices = cutFruitPieces(apple);
+//     const juice = `Juice with ${mangopices} mangopices and ${applepices} applepieces are done`;
+//     return juice;
+// }
 
-    const finalJuice = fruitJuiceMaker(5, 2)
-    console.log(finalJuice)
+//     const finalJuice = fruitJuiceMaker(5, 2)
+//     console.log(finalJuice)
+const calcAverage = (a, b, c) => a + b + c / 3;
+const scoreDolphins = calcAverage(44, 23, 71)
+const scoreKoalas = calcAverage(85, 54, 49)
+
+console.log(scoreDolphins)
