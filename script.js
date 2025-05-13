@@ -101,8 +101,19 @@ console.log (`My Name is ${firstName}
 
 //     const finalJuice = fruitJuiceMaker(5, 2)
 //     console.log(finalJuice)
-const calcAverage = (a, b, c) => a + b + c / 3;
-const scoreDolphins = calcAverage(44, 23, 71)
-const scoreKoalas = calcAverage(85, 54, 49)
+// const calcAverage = (a, b, c) => a + b + c / 3;
+// const scoreDolphins = calcAverage(44, 23, 71);
+// const scoreKoalas = calcAverage(85, 54, 49);
 
-console.log(scoreDolphins)
+// const winner = function(score1, score2){
+//     if (scoreDolphins >= scoreKoalas * 2) {
+//         console.log(`Team Score Dolphins Win ${scoreDolphins} vs ${scoreKoalas}`)
+//     } else if (scoreKoalas >= scoreDolphins * 2) {
+//         console.log(`Team Score Koalas Win ${scoreKoalas} vs ${scoreDolphins}`)
+//     } else{
+//         console.log("No ones Win")
+//     }
+// }
+// winner(scoreDolphins, scoreKoalas);
+const dost = [25, 56, 23, 85]
+console.log(dost[3])
