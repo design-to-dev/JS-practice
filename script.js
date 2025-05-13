@@ -115,5 +115,37 @@ console.log (`My Name is ${firstName}
 //     }
 // }
 // winner(scoreDolphins, scoreKoalas);
-const dost = [25, 56, 23, 85]
-console.log(dost[3])
+// function calcTip(bill){
+//     let tip;
+//     if (bill >= 50 && bill >= 300) {
+//          tip = bill * 0.15
+//     } else {
+//         tip = bill * 0.20
+//     }
+//     return tip;
+// }
+// const tip = calcTip(100);
+// console.log(tip)
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   age: 2037 - 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven']
+// };
+
+// // console.log(jonas);
+// // console.log(jonas.lastName);
+// // console.log(jonas['lastName']);
+
+// // const nameKey = 'Name';
+// // console.log(jonas['first' + nameKey]);
+// // console.log(jonas['last' + nameKey]);
+// // // console.log(jonas.'last' + nameKey)
+
+const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+console.log(jonas[interestedIn]);
+.console.log();
+// let friends = ['Pawan',' niliya' , 'lordmahindra']
+// friends[2] ="Babu"
+// console.log(friends);
