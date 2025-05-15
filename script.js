@@ -126,14 +126,19 @@ console.log (`My Name is ${firstName}
 // }
 // const tip = calcTip(100);
 // console.log(tip)
-// const jonas = {
-//   firstName: 'Jonas',
-//   lastName: 'Schmedtmann',
-//   age: 2037 - 1991,
-//   job: 'teacher',
-//   friends: ['Michael', 'Peter', 'Steven']
-// };
-
+const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedtmann',
+  birthYear: 2003,
+  job: 'teacher',
+  friends: ['Michael', 'Peter', 'Steven'],
+  age : function() {
+    return 2025 - this.birthYear
+    console.log(jonas.age())
+  }
+  
+};
+console.log(jonas.age())
 // // console.log(jonas);
 // // console.log(jonas.lastName);
 // // console.log(jonas['lastName']);
@@ -143,9 +148,9 @@ console.log (`My Name is ${firstName}
 // // console.log(jonas['last' + nameKey]);
 // // // console.log(jonas.'last' + nameKey)
 
-const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
-console.log(jonas[interestedIn]);
-.console.log();
+// const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+// console.log(jonas[interestedIn]);
+// .console.log();
 // let friends = ['Pawan',' niliya' , 'lordmahindra']
 // friends[2] ="Babu"
 // console.log(friends);
