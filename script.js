@@ -126,19 +126,19 @@ console.log (`My Name is ${firstName}
 // }
 // const tip = calcTip(100);
 // console.log(tip)
-const jonas = {
-  firstName: 'Jonas',
-  lastName: 'Schmedtmann',
-  birthYear: 2003,
-  job: 'teacher',
-  friends: ['Michael', 'Peter', 'Steven'],
-  age : function() {
-    return 2025 - this.birthYear
-    console.log(jonas.age())
-  }
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   birthYear: 2003,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven'],
+//   age : function() {
+//     return 2025 - this.birthYear
+//     console.log(jonas.age())
+//   }
   
-};
-console.log(jonas.age())
+// };
+// console.log(jonas.age())
 // // console.log(jonas);
 // // console.log(jonas.lastName);
 // // console.log(jonas['lastName']);
@@ -151,6 +151,32 @@ console.log(jonas.age())
 // const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
 // console.log(jonas[interestedIn]);
 // .console.log();
-// let friends = ['Pawan',' niliya' , 'lordmahindra']
+// let friends = ['Pawan','omar' , 'nithil']
 // friends[2] ="Babu"
 // console.log(friends);
+// const John = {
+//     fullName :'john lent',
+//     mass : 92,
+//     height : 1.95,
+//     calcBMI :function(){
+//         this.bmi = this.mass / (this.height ** 2)
+//         return this.bmi;
+//     }
+// }
+// //  console.log(John.calcBMI())
+//  console.log(John.bmi)
+const bona = [
+    "Utsav akhani", 
+    25, 
+    4.5,
+    53
+];
+for (let i = 0; i < bona.length; i++) {
+    const element = bona[i];
+    console.log(element);
+    
+};
+
+
+
+
