@@ -165,17 +165,45 @@ console.log (`My Name is ${firstName}
 // }
 // //  console.log(John.calcBMI())
 //  console.log(John.bmi)
-const bona = [
-    "Utsav akhani", 
-    25, 
-    4.5,
-    53
-];
-for (let i = 0; i < bona.length; i++) {
-    const element = bona[i];
-    console.log(element);
+// const bona = [
+//     "Utsav akhani", 
+//     25, 
+//     4.5,
+//     53
+// ];
+// for (let i = 0; i < bona.length; i++) {
+//     const element = bona[i];
+//     console.log(element);
     
-};
+// };
+// const name = "pratham"
+// let i = 1
+// while (i <= 13) {
+//     console.log(name);
+//     i++;
+// }
+var addButtons = document.querySelectorAll(".addfriendbutton");
+var statuses = document.querySelectorAll(".status");
+
+addButtons.forEach(function(button, index) {
+  let isFriend = false; // move inside loop — now unique per button
+
+  button.addEventListener("click", function () {
+    if (!isFriend) {
+      statuses[index].innerHTML = "Friends";
+      button.innerHTML = "Remove Friend";
+      button.classList.remove("btn-primary");
+      button.classList.add("btn-danger");
+      isFriend = true;
+    } else {
+      statuses[index].innerHTML = "Unknown";
+      button.innerHTML = "Add Friend";
+      button.classList.remove("btn-danger");
+      button.classList.add("btn-primary");
+      isFriend = false;
+    }
+  });
+});
 
 
 
